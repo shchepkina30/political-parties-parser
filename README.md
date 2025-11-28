@@ -13,7 +13,7 @@ readme_content = """# Парсер политических партий
 
 ## Установка
 
-```bash
+bash
 pip install -r requirements.txt
 
 Использование
@@ -36,6 +36,7 @@ json
   }
 ]
 Если документ не найден, поле doc_url будет содержать null.
+"""
 
 Структура проекта
 parse_parties.py - основной скрипт парсера
@@ -52,4 +53,4 @@ Python 3.7+
 BeautifulSoup4
 
 Requests
-"""
+
